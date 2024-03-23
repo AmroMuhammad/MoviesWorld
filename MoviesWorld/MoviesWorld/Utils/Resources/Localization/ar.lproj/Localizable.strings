@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  MoviesWorld
+
+  Created by Amr Muhammad on 23/03/2024.
+  
+*/
+
+//MARK: General
+"genericError" = "حدث خطأ عام، يرجى المحاولة مرة أخرى لاحقًا";
+"emptyFieldsError" = "يجب ملء جميع الحقول";
+"emailError" = "الرجاء إدخال بريد إلكتروني صالح";
+"passwordError" = "يجب أن تتكون كلمة المرور من أكثر من 5 أحرف";
+"passwordNotEqualError" = "كلمة المرور غير متطابقة مع تأكيد كلمة المرور";
+"loginPasswordError" = "رقم الهاتف أو كلمة المرور غير صحيحة، يرجى المحاولة مرة أخرى";
+"noInternetConnection" = "لا يوجد اتصال بالإنترنت، يرجى الاتصال بشبكة WI-FI أو بيانات الجوال والمحاولة مرة أخرى.";
+"alertTitle" = "خطأ";
+"ok" = "حسناً";
+
+//MARK: Splash Screen
+"appName" = "عالم الافلام";
+"welcome_to" = "مرحبا في";
+
+//MARK: Login Screen
+"login_to" = "تسجيل الدخول إلى حسابك";
+"email" = "البريد الإلكتروني";
+"password" = "كلمة المرور";
+"login" = "تسجيل الدخول";
+"continue_with" = "أو الاستمرار مع";
+"dont_have" = "ليس لديك حساب؟";
+"signup" = "التسجيل";

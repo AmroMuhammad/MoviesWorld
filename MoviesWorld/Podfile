@@ -22,13 +22,8 @@ target 'MoviesWorld' do
   pod 'SDWebImage'
   pod 'FirebaseAnalytics'
   pod 'Mixpanel-swift'
-  pod 'AmplitudeSwift'
-  pod 'Analytics'
   pod 'Firebase'
   pod 'Firebase/RemoteConfig'
-  pod 'lottie-ios'
-  pod 'FirebaseUI'
   pod 'FirebaseCrashlytics'
   pod 'FirebaseAuth'
-
 end
