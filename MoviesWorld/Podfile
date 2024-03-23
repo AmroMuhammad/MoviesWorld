@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MoviesWorld' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MoviesWorld
+
+  target 'MoviesWorldTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MoviesWorldUITests' do
+    # Pods for testing
+  end
+
+  pod 'RxSwift', '6.1.0'
+  pod 'RxCocoa', '6.1.0'
+  pod 'Alamofire', '~> 5.2'
+  pod 'SDWebImage'
+  pod 'FirebaseAnalytics'
+  pod 'Mixpanel-swift'
+  pod 'AmplitudeSwift'
+  pod 'Analytics'
+  pod 'Firebase'
+  pod 'Firebase/RemoteConfig'
+  pod 'lottie-ios'
+  pod 'FirebaseUI'
+  pod 'FirebaseCrashlytics'
+  pod 'FirebaseAuth'
+
+end
