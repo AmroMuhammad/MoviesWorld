@@ -49,8 +49,8 @@ class AppCoordinator: CoordinatorProtocol {
     }
     
     private func openLoginScreen() {
-//        let nextViewController = Injector.getLoginViewController(coordinator: self)
-//        navigationController.pushViewController(nextViewController, animated: false)
+        let nextViewController = Injector.getLoginViewController(coordinator: self)
+        navigationController.pushViewController(nextViewController, animated: false)
     }
     
     private func openRegisterScreen() {

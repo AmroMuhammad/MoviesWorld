@@ -17,16 +17,16 @@ class Injector {
         return viewcontroller
     }
     
-//    static func getLoginViewController(coordinator: CoordinatorProtocol) -> LoginViewController {
-//        let localDataSource = LoginLocalDataSourceImplementation()
-//        let repo = LoginRepositoryImp(localDataSource: localDataSource)
-//        let usecase = LoginUseCaseImp(repo: repo)
-//        let viewModel = LoginViewModel(coordinator: coordinator, usecase: usecase, analyticsService: AnalyticsService.shared)
-//        let viewcontroller = LoginViewController.instantiateFromStoryBoard(appStoryBoard: .Login)
-//        viewcontroller.loginViewModel = viewModel
-//        return viewcontroller
-//    }
-//    
+    static func getLoginViewController(coordinator: CoordinatorProtocol) -> LoginViewController {
+        let localDataSource = LoginLocalDataSourceImplementation()
+        let repo = LoginRepositoryImp(localDataSource: localDataSource)
+        let usecase = LoginUseCaseImp(repo: repo)
+        let viewModel = LoginViewModel(coordinator: coordinator, usecase: usecase, analyticsService: AnalyticsService.shared)
+        let viewcontroller = LoginViewController.instantiateFromStoryBoard(appStoryBoard: .Login)
+        viewcontroller.loginViewModel = viewModel
+        return viewcontroller
+    }
+    
 //    static func getRegisterViewController(coordinator: CoordinatorProtocol) -> RegisterViewController {
 //        let localDataSource = RegisterLocalDatasourceImplementation()
 //        let repo = RegisterRepositoryImplementation(localDataSource: localDataSource)
