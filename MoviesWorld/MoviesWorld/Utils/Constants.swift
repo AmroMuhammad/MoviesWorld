@@ -10,6 +10,7 @@ import Foundation
 
 struct Constants{
     static let isLoggedInUserDefaults = "isLogged"
+    static let loginType = "loginType"
     static let baseURL = ""
     static let urlPath = "v2/list"
     static let id = "id"

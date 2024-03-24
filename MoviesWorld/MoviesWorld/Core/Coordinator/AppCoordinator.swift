@@ -43,6 +43,7 @@ class AppCoordinator: CoordinatorProtocol {
         case .Register:
             openRegisterScreen()
         case .Home:
+            print("navigate To Home")
             break
         }
         

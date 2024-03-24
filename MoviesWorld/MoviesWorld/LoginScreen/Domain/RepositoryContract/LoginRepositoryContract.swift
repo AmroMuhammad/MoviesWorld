@@ -9,5 +9,5 @@
 import Foundation
 
 protocol LoginRepositoryContract {
-//    func fetchUser(byPhoneNumber phone:String, completion: @escaping (Result<User,NSError>) -> Void)
+    func loginUsing(user: UserModel, completion: @escaping (Result<Void,NSError>) -> Void)
 }

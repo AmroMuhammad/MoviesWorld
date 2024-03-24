@@ -26,4 +26,5 @@ target 'MoviesWorld' do
   pod 'Firebase/RemoteConfig'
   pod 'FirebaseCrashlytics'
   pod 'FirebaseAuth'
+  pod 'GoogleSignIn'
 end

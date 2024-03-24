@@ -9,11 +9,12 @@
 import Foundation
 
 class SplashScreenViewModel: SplashViewModelContract {
+    private let userDefaults: LocalUserDefaultsContract
     var coordinator: CoordinatorProtocol
-
-    init(coordinator: CoordinatorProtocol) {
+    
+    init(coordinator: CoordinatorProtocol, userDefaults: LocalUserDefaultsContract = LocalUserDefaults.sharedInstance) {
         self.coordinator = coordinator
-        //TODO: check for remember me
+        self.userDefaults = userDefaults
     }
     
     func navigateTo(to: DestinationScreens) {
@@ -24,6 +25,14 @@ class SplashScreenViewModel: SplashViewModelContract {
         Injector.setupRemoteConfig { [weak self] in
             guard let self = self else {return}
             Injector.addAnalyticProviders()
+            self.checkForLoggingState()
+        }
+    }
+    
+    private func checkForLoggingState() {
+        if(LocalUserDefaults.sharedInstance.isLoggedIn()){
+            self.navigateTo(to: .Home)
+        }else {
             self.navigateTo(to: .Login)
         }
     }

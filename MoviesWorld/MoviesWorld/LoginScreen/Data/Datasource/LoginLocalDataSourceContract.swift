@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol LoginLocalDataSourceContract {
-//    func fetchUser(byPhoneNumber phone: String, completion: @escaping (Result<User, NSError>) -> Void)
+protocol LoginRemoteDataSourceContract {
+    func loginUsing(user: UserModel, completion: @escaping (Result<Void,NSError>) -> Void)
 }

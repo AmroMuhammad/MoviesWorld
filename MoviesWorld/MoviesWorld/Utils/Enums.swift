@@ -22,3 +22,8 @@ enum StoryBoardsEnum : String {
         return instance.instantiateViewController(withIdentifier: storyBoardID) as! T
     }
 }
+
+enum LoginType: String {
+    case email
+    case google
+}

@@ -12,9 +12,11 @@
 "emailError" = "Enter Valid Email";
 "passwordError" = "password should be more than 6 characters";
 "passwordNotEqualError" = "password is not the same as confirm password";
-"loginPasswordError" = "Phone or password is wrong, please try again";
+"loginPasswordError" = "Email or password is wrong, please try again";
 "noInternetConnection" = "No Internet Connection, Please connect to WI-FI or Mobile Data and try again.";
 "accountAlreadyExist" = "Email already exists, Please try another mail";
+"userDisabled" = "This User is disabled, kindly contact support";
+"userNotFound" = "This user does not exist";
 "alertTitle" = "ِError";
 "ok" = "Ok";
 "email" = "Email";

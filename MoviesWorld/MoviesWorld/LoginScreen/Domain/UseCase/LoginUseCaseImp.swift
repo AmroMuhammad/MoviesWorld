@@ -15,9 +15,8 @@ class LoginUseCaseImp: LoginUseCaseContract {
         self.repo = repo
     }
     
-//    func fetchUser(byPhoneNumber phone: String, completion: @escaping (Result<User, NSError>) -> Void) {
-//        repo.fetchUser(byPhoneNumber: phone, completion: completion)
-//    }
-//    
+    func loginUsing(user: UserModel, completion: @escaping (Result<Void, NSError>) -> Void) {
+        repo.loginUsing(user: user, completion: completion)
+    }
     
 }

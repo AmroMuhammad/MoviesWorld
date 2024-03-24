@@ -43,9 +43,7 @@ class LoginViewController: BaseViewController {
         passwordTextField.enablePasswordToggle()
         setGestures()
         listenOnObservables()
-        setLocalization()
-        loginViewModel.checkForLoggingState()
-        
+        setLocalization()        
     }
     
     private func setGestures() {
@@ -57,7 +55,7 @@ class LoginViewController: BaseViewController {
     }
     
     @objc private func didSelectGoogle() {
-        print("google")
+        loginViewModel.loginUsingGmail(with: self)
     }
     
     @objc private func didClickSignUp() {
@@ -118,7 +116,6 @@ class LoginViewController: BaseViewController {
         continueWithLabel.text = Localize.Login.continueWith
         dontHaveAccountLabel.text = Localize.Login.dontHave
         signUpButton.text = Localize.General.signup
-        
     }
     
 }

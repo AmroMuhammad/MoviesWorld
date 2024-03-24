@@ -12,6 +12,8 @@ enum Localize {
 
     enum General {
         static let genericError = "genericError".localize
+        static let userDisabled = "userDisabled".localize
+        static let userNotFound = "userNotFound".localize
         static let alertTitle = "alertTitle".localize
         static let ok = "ok".localize
         static let emptyFieldsError = "emptyFieldsError".localize

@@ -9,15 +9,13 @@
 import Foundation
 
 class LoginRepositoryImp: LoginRepositoryContract {
-    let localDataSource: LoginLocalDataSourceContract
+    let remoteDatasource: LoginRemoteDataSourceContract
     
-    init(localDataSource: LoginLocalDataSourceContract) {
-        self.localDataSource = localDataSource
+    init(remoteDatasource: LoginRemoteDataSourceContract) {
+        self.remoteDatasource = remoteDatasource
     }
     
-//    func fetchUser(byPhoneNumber phone: String, completion: @escaping (Result<User, NSError>) -> Void) {
-//        localDataSource.fetchUser(byPhoneNumber: phone, completion: completion)
-//    }
-    
-    
+    func loginUsing(user: UserModel, completion: @escaping (Result<Void, NSError>) -> Void) {
+        remoteDatasource.loginUsing(user: user, completion:completion)
+    }
 }

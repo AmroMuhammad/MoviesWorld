@@ -18,8 +18,8 @@ class Injector {
     }
     
     static func getLoginViewController(coordinator: CoordinatorProtocol) -> LoginViewController {
-        let localDataSource = LoginLocalDataSourceImplementation()
-        let repo = LoginRepositoryImp(localDataSource: localDataSource)
+        let remoteDatasource = LoginRemoteDataSourceImp()
+        let repo = LoginRepositoryImp(remoteDatasource: remoteDatasource)
         let usecase = LoginUseCaseImp(repo: repo)
         let viewModel = LoginViewModel(coordinator: coordinator, usecase: usecase, analyticsService: AnalyticsService.shared)
         let viewcontroller = LoginViewController.instantiateFromStoryBoard(appStoryBoard: .Login)
