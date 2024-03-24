@@ -11,6 +11,6 @@ import RxSwift
 
 protocol RegisterViewModelContract: BaseViewModelContract {
     func validateInputData(email: String, password: String, confirmPassword: String)
-//    var doneObservable: Observable<User>{get}
+    var doneObservable: Observable<Void>{get}
     var coordinator: CoordinatorProtocol {set get}
 }

@@ -10,6 +10,7 @@
 		86BA85ED477A4B1BE707A805 /* Pods_MoviesWorld_MoviesWorldUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC912AFDC17D848F3693A582 /* Pods_MoviesWorld_MoviesWorldUITests.framework */; };
 		872B7D85BA57BEC9B93A9CB2 /* Pods_MoviesWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DE3AE14693CE2E99A912D6 /* Pods_MoviesWorld.framework */; };
 		952DDDA4E32846A470F5CEC2 /* Pods_MoviesWorldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D463B6B9D01AA924F4F91A /* Pods_MoviesWorldTests.framework */; };
+		ECBD058E2BAFB68D0057995E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBD058D2BAFB68D0057995E /* UserModel.swift */; };
 		ECDE9BDA2BAF6F0500C1A4EC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9BD92BAF6F0500C1A4EC /* UIView+Extension.swift */; };
 		ECDE9BDC2BAF784300C1A4EC /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9BDB2BAF784300C1A4EC /* UIImage+Extension.swift */; };
 		ECDE9BDE2BAF7B6300C1A4EC /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9BDD2BAF7B6300C1A4EC /* UITextField+Extension.swift */; };
@@ -27,11 +28,11 @@
 		ECDE9C072BAF9C4E00C1A4EC /* LoginScreenAnalyticEventImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9BFB2BAF9C4D00C1A4EC /* LoginScreenAnalyticEventImplementation.swift */; };
 		ECDE9C082BAF9C4E00C1A4EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9BFD2BAF9C4D00C1A4EC /* LoginViewController.swift */; };
 		ECDE9C092BAF9C4E00C1A4EC /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDE9BFE2BAF9C4D00C1A4EC /* LoginViewController.storyboard */; };
-		ECDE9C212BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C0D2BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift */; };
+		ECDE9C212BAF9D2C00C1A4EC /* RegisterRemoteDatasourceImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C0D2BAF9D2C00C1A4EC /* RegisterRemoteDatasourceImp.swift */; };
 		ECDE9C222BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C0E2BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift */; };
-		ECDE9C232BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift */; };
+		ECDE9C232BAF9D2C00C1A4EC /* RegisterRepositoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImp.swift */; };
 		ECDE9C242BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C132BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift */; };
-		ECDE9C252BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift */; };
+		ECDE9C252BAF9D2C00C1A4EC /* RegisterUsecaseImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImp.swift */; };
 		ECDE9C262BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C172BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift */; };
 		ECDE9C272BAF9D2C00C1A4EC /* RegisterViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C1A2BAF9D2C00C1A4EC /* RegisterViewModelContract.swift */; };
 		ECDE9C282BAF9D2C00C1A4EC /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C1B2BAF9D2C00C1A4EC /* RegisterViewModel.swift */; };
@@ -101,6 +102,7 @@
 		92DE3AE14693CE2E99A912D6 /* Pods_MoviesWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoviesWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA64736387DF48E0A9226A05 /* Pods-MoviesWorld-MoviesWorldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesWorld-MoviesWorldUITests.release.xcconfig"; path = "Target Support Files/Pods-MoviesWorld-MoviesWorldUITests/Pods-MoviesWorld-MoviesWorldUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BC912AFDC17D848F3693A582 /* Pods_MoviesWorld_MoviesWorldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoviesWorld_MoviesWorldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD058D2BAFB68D0057995E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		ECDE9BD92BAF6F0500C1A4EC /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		ECDE9BDB2BAF784300C1A4EC /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		ECDE9BDD2BAF7B6300C1A4EC /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
@@ -119,11 +121,11 @@
 		ECDE9BFB2BAF9C4D00C1A4EC /* LoginScreenAnalyticEventImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenAnalyticEventImplementation.swift; sourceTree = "<group>"; };
 		ECDE9BFD2BAF9C4D00C1A4EC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ECDE9BFE2BAF9C4D00C1A4EC /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
-		ECDE9C0D2BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLocalDatasourceImplementation.swift; sourceTree = "<group>"; };
+		ECDE9C0D2BAF9D2C00C1A4EC /* RegisterRemoteDatasourceImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRemoteDatasourceImp.swift; sourceTree = "<group>"; };
 		ECDE9C0E2BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLocalDatasourceContract.swift; sourceTree = "<group>"; };
-		ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRepositoryImplementation.swift; sourceTree = "<group>"; };
+		ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRepositoryImp.swift; sourceTree = "<group>"; };
 		ECDE9C132BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRepositoryContract.swift; sourceTree = "<group>"; };
-		ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUsecaseImplementation.swift; sourceTree = "<group>"; };
+		ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUsecaseImp.swift; sourceTree = "<group>"; };
 		ECDE9C172BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUsecaseContract.swift; sourceTree = "<group>"; };
 		ECDE9C1A2BAF9D2C00C1A4EC /* RegisterViewModelContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModelContract.swift; sourceTree = "<group>"; };
 		ECDE9C1B2BAF9D2C00C1A4EC /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
@@ -360,7 +362,7 @@
 		ECDE9C0C2BAF9D2C00C1A4EC /* Datasource */ = {
 			isa = PBXGroup;
 			children = (
-				ECDE9C0D2BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift */,
+				ECDE9C0D2BAF9D2C00C1A4EC /* RegisterRemoteDatasourceImp.swift */,
 				ECDE9C0E2BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift */,
 			);
 			path = Datasource;
@@ -369,7 +371,7 @@
 		ECDE9C0F2BAF9D2C00C1A4EC /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift */,
+				ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImp.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -395,7 +397,7 @@
 		ECDE9C142BAF9D2C00C1A4EC /* Usecase */ = {
 			isa = PBXGroup;
 			children = (
-				ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift */,
+				ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImp.swift */,
 			);
 			path = Usecase;
 			sourceTree = "<group>";
@@ -431,6 +433,7 @@
 			isa = PBXGroup;
 			children = (
 				ECDE9C1D2BAF9D2C00C1A4EC /* RegisterScreenAnalyticEventImplementation.swift */,
+				ECBD058D2BAFB68D0057995E /* UserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -936,7 +939,7 @@
 			files = (
 				ECE41A932BAF1DC50038BF2B /* FirebaseAnalyticsProvider.swift in Sources */,
 				ECE41A902BAF1DC50038BF2B /* AnalyticsServiceContract.swift in Sources */,
-				ECDE9C252BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift in Sources */,
+				ECDE9C252BAF9D2C00C1A4EC /* RegisterUsecaseImp.swift in Sources */,
 				ECDE9C272BAF9D2C00C1A4EC /* RegisterViewModelContract.swift in Sources */,
 				ECE41A852BAF1DC50038BF2B /* CoordinatorProtocol.swift in Sources */,
 				ECE41AA82BAF1EB90038BF2B /* Utils.swift in Sources */,
@@ -950,6 +953,7 @@
 				ECE41A842BAF1DC50038BF2B /* AppCoordinator.swift in Sources */,
 				ECDE9C242BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift in Sources */,
 				ECDE9C012BAF9C4D00C1A4EC /* LoginRepositoryImp.swift in Sources */,
+				ECBD058E2BAFB68D0057995E /* UserModel.swift in Sources */,
 				ECDE9BFF2BAF9C4D00C1A4EC /* LoginLocalDataSourceContract.swift in Sources */,
 				ECDE9BDA2BAF6F0500C1A4EC /* UIView+Extension.swift in Sources */,
 				ECDE9C042BAF9C4E00C1A4EC /* LoginUseCaseContract.swift in Sources */,
@@ -964,7 +968,7 @@
 				ECE41A8D2BAF1DC50038BF2B /* BaseAPI.swift in Sources */,
 				ECDE9C072BAF9C4E00C1A4EC /* LoginScreenAnalyticEventImplementation.swift in Sources */,
 				ECE41A8E2BAF1DC50038BF2B /* ApplicationNetworking.swift in Sources */,
-				ECDE9C212BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift in Sources */,
+				ECDE9C212BAF9D2C00C1A4EC /* RegisterRemoteDatasourceImp.swift in Sources */,
 				ECE41A882BAF1DC50038BF2B /* RemoteConfigKeys.swift in Sources */,
 				ECE41A8F2BAF1DC50038BF2B /* AnalyticsService.swift in Sources */,
 				ECDE9BDE2BAF7B6300C1A4EC /* UITextField+Extension.swift in Sources */,
@@ -972,7 +976,7 @@
 				ECE41AA32BAF1EB90038BF2B /* Enums.swift in Sources */,
 				ECDE9C262BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift in Sources */,
 				ECE41A862BAF1DC50038BF2B /* BaseViewModelContract.swift in Sources */,
-				ECDE9C232BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift in Sources */,
+				ECDE9C232BAF9D2C00C1A4EC /* RegisterRepositoryImp.swift in Sources */,
 				ECE41AA72BAF1EB90038BF2B /* ViewController+Extension.swift in Sources */,
 				ECDE9C082BAF9C4E00C1A4EC /* LoginViewController.swift in Sources */,
 				ECE41AA22BAF1EB90038BF2B /* Constants.swift in Sources */,
@@ -1166,7 +1170,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MoviesWorld/Info.plist;
+				INFOPLIST_FILE = MoviesWorld/ApplicationSupport/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -1182,6 +1186,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				mixPanelKey = 22543cd33eb62203990df853db231366;
 			};
 			name = Debug;
 		};
@@ -1194,7 +1199,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MoviesWorld/Info.plist;
+				INFOPLIST_FILE = MoviesWorld/ApplicationSupport/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -1210,6 +1215,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				mixPanelKey = 22543cd33eb62203990df853db231366;
 			};
 			name = Release;
 		};

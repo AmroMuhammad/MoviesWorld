@@ -56,13 +56,13 @@ class RegisterViewController: BaseViewController {
             }
             }).disposed(by: disposeBag)
         
-//        registerViewModel.doneObservable.subscribe(onNext: {[weak self] (user) in
-//            guard let self = self else{
-//                print("RVC* error in doneObservable")
-//                return
-//            }
-//            self.registerViewModel.navigateTo(to: .Login)
-//            }).disposed(by: disposeBag)
+        registerViewModel.doneObservable.subscribe(onNext: {[weak self] in
+            guard let self = self else{
+                print("RVC* error in doneObservable")
+                return
+            }
+            self.registerViewModel.navigateTo(to: .Login)
+            }).disposed(by: disposeBag)
     }
     
     private func setLocalization() {

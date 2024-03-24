@@ -16,14 +16,6 @@ extension Bundle {
     var mixPanelKey: String {
         value(for: "mixPanelKey").orEmpty
     }
-    
-    var amplitudeKey: String {
-        value(for: "amplitudeKey").orEmpty
-    }
-    
-    var segmentKey: String {
-        value(for: "segmentKey").orEmpty
-    }
 }
 
 

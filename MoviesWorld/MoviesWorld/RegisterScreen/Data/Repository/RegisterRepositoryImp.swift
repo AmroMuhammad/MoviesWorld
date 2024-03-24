@@ -1,5 +1,5 @@
 //
-//  RegisterLocalDatasourceImplementation.swift
+//  RegisterRepositoryImp.swift
 //  MoviesWorld
 //
 //  Created by Amr Muhammad on 23/03/2024.
@@ -8,12 +8,17 @@
 
 import Foundation
 
-class RegisterLocalDatasourceImplementation: RegisterLocalDatasourceContract {
-//    private let localDataSource: UsersLocalDataSourceContract
-
-//    init(localDataSource: UsersLocalDataSourceContract = UsersLocalDataSource.sharedInstance) {
-//        self.localDataSource = localDataSource
-//    }
+class RegisterRepositoryImp: RegisterRepositoryContract {
+    
+    let remoteDatasource: RegisterRemoteDatasourceContract
+    
+    init(remoteDatasource: RegisterRemoteDatasourceContract) {
+        self.remoteDatasource = remoteDatasource
+    }
+    
+    func register(user: UserModel, completion: @escaping (Result<Void, NSError>) -> Void) {
+        remoteDatasource.register(user: user, completion: completion)
+    }
     
 //    func fetchUser(byPhoneNumber phone: String, completion: @escaping (Result<User, NSError>) -> Void) {
 //        localDataSource.fetchUser(byPhoneNumber: phone, completion: completion)

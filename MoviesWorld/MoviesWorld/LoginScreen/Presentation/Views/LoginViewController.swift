@@ -36,7 +36,7 @@ class LoginViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        NotificationCenter.default.addObserver(self, selector: #selector(setPhoneNumber(_:)), name: .notificationForPhoneNumber, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(setPhoneNumber(_:)), name: .notificationForEmail, object: nil)
         
         disposeBag = DisposeBag()
         passwordTextField.disableAutoFill()
@@ -125,7 +125,7 @@ class LoginViewController: BaseViewController {
 
 extension LoginViewController{
     @objc func setPhoneNumber(_ notification: Notification) {
-        if let phoneNumber = notification.userInfo?[Constants.phoneNumberNotificationDataKey] as? String {
+        if let phoneNumber = notification.userInfo?[Constants.emailNotificationDataKey] as? String {
             emailTextField.text = phoneNumber
         }
     }

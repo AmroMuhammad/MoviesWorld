@@ -20,6 +20,7 @@ enum Localize {
         static let passwordNotEqualError = "passwordNotEqualError".localize
         static let loginPasswordError = "loginPasswordError".localize
         static let noInternetConnection = "noInternetConnection".localize
+        static let accountAlreadyExist = "accountAlreadyExist".localize
         static let email = "email".localize
         static let password = "password".localize
         static let signup = "signup".localize

@@ -10,10 +10,11 @@
 "genericError" = "General Error occured, kindly try again later";
 "emptyFieldsError" = "All Fields should be filled";
 "emailError" = "Enter Valid Email";
-"passwordError" = "password should be more than 5 characters";
+"passwordError" = "password should be more than 6 characters";
 "passwordNotEqualError" = "password is not the same as confirm password";
 "loginPasswordError" = "Phone or password is wrong, please try again";
 "noInternetConnection" = "No Internet Connection, Please connect to WI-FI or Mobile Data and try again.";
+"accountAlreadyExist" = "Email already exists, Please try another mail";
 "alertTitle" = "ِError";
 "ok" = "Ok";
 "email" = "Email";

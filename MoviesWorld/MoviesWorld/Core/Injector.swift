@@ -28,9 +28,10 @@ class Injector {
     }
     
     static func getRegisterViewController(coordinator: CoordinatorProtocol) -> RegisterViewController {
-        let localDataSource = RegisterLocalDatasourceImplementation()
-        let repo = RegisterRepositoryImplementation(localDataSource: localDataSource)
-        let usecase = RegisterUsecaseImplementation(repo: repo)
+        
+        let remoteDatasource = RegisterRemoteDatasourceImp()
+        let repo = RegisterRepositoryImp(remoteDatasource: remoteDatasource)
+        let usecase = RegisterUsecaseImp(repo: repo)
         let viewModel = RegisterViewModel(coordinator: coordinator, usecase: usecase, analyticsService: AnalyticsService.shared)
         let viewcontroller = RegisterViewController.instantiateFromStoryBoard(appStoryBoard: .Register)
         viewcontroller.registerViewModel = viewModel

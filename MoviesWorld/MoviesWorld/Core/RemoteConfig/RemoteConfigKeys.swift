@@ -9,8 +9,6 @@
 import Foundation
 
 enum RemoteConfigKeys: String {
-    case enableFirebaseAnalytics = "enableFirebaseAnalytics"
+    case enableFirebaseAnalytics
     case enableMixPanelAnalytics
-    case enableAmplitudeAnalytics
-    case enableSegmentAnalytics
 }

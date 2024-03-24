@@ -18,9 +18,7 @@ struct Constants{
     static let height = "height"
     static let url = "url"
     static let downloadURL = "downloadURL"
-    static let detailsVC = "DetailsViewController"
-    static let placeholder = "placeholder"
-    static let phoneNumberNotificationDataKey = "phoneNumber"
+    static let emailNotificationDataKey = "email"
 }
 
 

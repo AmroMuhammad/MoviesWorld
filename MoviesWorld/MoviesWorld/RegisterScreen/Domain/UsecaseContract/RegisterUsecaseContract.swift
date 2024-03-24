@@ -9,6 +9,5 @@
 import Foundation
 
 protocol RegisterUsecaseContract {
-//    func fetchUser(byPhoneNumber phone:String, completion: @escaping (Result<User,NSError>) -> Void)
-//    func save(user: User, completion: @escaping (Result<Bool,NSError>) -> Void)
+    func register(user: UserModel, completion: @escaping (Result<Void,NSError>) -> Void)
 }

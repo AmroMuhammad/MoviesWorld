@@ -9,5 +9,5 @@
 import Foundation
 
 extension Notification.Name {
-    static let notificationForPhoneNumber = Notification.Name("phoneNumber")
+    static let notificationForEmail = Notification.Name("email")
 }

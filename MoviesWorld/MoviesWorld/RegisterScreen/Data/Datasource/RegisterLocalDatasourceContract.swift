@@ -8,7 +8,6 @@
 
 import Foundation
 
-protocol RegisterLocalDatasourceContract {
-//    func fetchUser(byPhoneNumber phone:String, completion: @escaping (Result<User,NSError>) -> Void)
-//    func save(user: User, completion: @escaping (Result<Bool,NSError>) -> Void)
+protocol RegisterRemoteDatasourceContract {
+    func register(user: UserModel, completion: @escaping (Result<Void,NSError>) -> Void)
 }
