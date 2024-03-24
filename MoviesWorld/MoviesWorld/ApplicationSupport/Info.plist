@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mixPanelKey</key>
+	<string>$(mixPanelKey)</string>
+	<key>GIDClientID</key>
+	<string>705925621534-h53no3rdenb04l1s16jtio5sl6kki4jv.apps.googleusercontent.com</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.705925621534-h53no3rdenb04l1s16jtio5sl6kki4jv</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
