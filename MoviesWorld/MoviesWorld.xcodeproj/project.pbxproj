@@ -27,6 +27,17 @@
 		ECDE9C072BAF9C4E00C1A4EC /* LoginScreenAnalyticEventImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9BFB2BAF9C4D00C1A4EC /* LoginScreenAnalyticEventImplementation.swift */; };
 		ECDE9C082BAF9C4E00C1A4EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9BFD2BAF9C4D00C1A4EC /* LoginViewController.swift */; };
 		ECDE9C092BAF9C4E00C1A4EC /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDE9BFE2BAF9C4D00C1A4EC /* LoginViewController.storyboard */; };
+		ECDE9C212BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C0D2BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift */; };
+		ECDE9C222BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C0E2BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift */; };
+		ECDE9C232BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift */; };
+		ECDE9C242BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C132BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift */; };
+		ECDE9C252BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift */; };
+		ECDE9C262BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C172BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift */; };
+		ECDE9C272BAF9D2C00C1A4EC /* RegisterViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C1A2BAF9D2C00C1A4EC /* RegisterViewModelContract.swift */; };
+		ECDE9C282BAF9D2C00C1A4EC /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C1B2BAF9D2C00C1A4EC /* RegisterViewModel.swift */; };
+		ECDE9C292BAF9D2C00C1A4EC /* RegisterScreenAnalyticEventImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C1D2BAF9D2C00C1A4EC /* RegisterScreenAnalyticEventImplementation.swift */; };
+		ECDE9C2A2BAF9D2C00C1A4EC /* RegisterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDE9C1F2BAF9D2C00C1A4EC /* RegisterViewController.storyboard */; };
+		ECDE9C2B2BAF9D2C00C1A4EC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE9C202BAF9D2C00C1A4EC /* RegisterViewController.swift */; };
 		ECE419DD2BAF0A250038BF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE419DC2BAF0A250038BF2B /* AppDelegate.swift */; };
 		ECE419E62BAF0A260038BF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE419E52BAF0A260038BF2B /* Assets.xcassets */; };
 		ECE419E92BAF0A260038BF2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE419E72BAF0A260038BF2B /* LaunchScreen.storyboard */; };
@@ -108,6 +119,17 @@
 		ECDE9BFB2BAF9C4D00C1A4EC /* LoginScreenAnalyticEventImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenAnalyticEventImplementation.swift; sourceTree = "<group>"; };
 		ECDE9BFD2BAF9C4D00C1A4EC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ECDE9BFE2BAF9C4D00C1A4EC /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		ECDE9C0D2BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLocalDatasourceImplementation.swift; sourceTree = "<group>"; };
+		ECDE9C0E2BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLocalDatasourceContract.swift; sourceTree = "<group>"; };
+		ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRepositoryImplementation.swift; sourceTree = "<group>"; };
+		ECDE9C132BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRepositoryContract.swift; sourceTree = "<group>"; };
+		ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUsecaseImplementation.swift; sourceTree = "<group>"; };
+		ECDE9C172BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUsecaseContract.swift; sourceTree = "<group>"; };
+		ECDE9C1A2BAF9D2C00C1A4EC /* RegisterViewModelContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModelContract.swift; sourceTree = "<group>"; };
+		ECDE9C1B2BAF9D2C00C1A4EC /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		ECDE9C1D2BAF9D2C00C1A4EC /* RegisterScreenAnalyticEventImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreenAnalyticEventImplementation.swift; sourceTree = "<group>"; };
+		ECDE9C1F2BAF9D2C00C1A4EC /* RegisterViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterViewController.storyboard; sourceTree = "<group>"; };
+		ECDE9C202BAF9D2C00C1A4EC /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		ECE419D92BAF0A250038BF2B /* MoviesWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE419DC2BAF0A250038BF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECE419E52BAF0A260038BF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -316,6 +338,112 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		ECDE9C0A2BAF9D2B00C1A4EC /* RegisterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C182BAF9D2C00C1A4EC /* Presentation */,
+				ECDE9C112BAF9D2C00C1A4EC /* Domain */,
+				ECDE9C0B2BAF9D2C00C1A4EC /* Data */,
+			);
+			path = RegisterScreen;
+			sourceTree = "<group>";
+		};
+		ECDE9C0B2BAF9D2C00C1A4EC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C0C2BAF9D2C00C1A4EC /* Datasource */,
+				ECDE9C0F2BAF9D2C00C1A4EC /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ECDE9C0C2BAF9D2C00C1A4EC /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C0D2BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift */,
+				ECDE9C0E2BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		ECDE9C0F2BAF9D2C00C1A4EC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C102BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		ECDE9C112BAF9D2C00C1A4EC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C122BAF9D2C00C1A4EC /* RepositoryContract */,
+				ECDE9C142BAF9D2C00C1A4EC /* Usecase */,
+				ECDE9C162BAF9D2C00C1A4EC /* UsecaseContract */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		ECDE9C122BAF9D2C00C1A4EC /* RepositoryContract */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C132BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift */,
+			);
+			path = RepositoryContract;
+			sourceTree = "<group>";
+		};
+		ECDE9C142BAF9D2C00C1A4EC /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C152BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		ECDE9C162BAF9D2C00C1A4EC /* UsecaseContract */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C172BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift */,
+			);
+			path = UsecaseContract;
+			sourceTree = "<group>";
+		};
+		ECDE9C182BAF9D2C00C1A4EC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C192BAF9D2C00C1A4EC /* ViewModel */,
+				ECDE9C1C2BAF9D2C00C1A4EC /* Models */,
+				ECDE9C1E2BAF9D2C00C1A4EC /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		ECDE9C192BAF9D2C00C1A4EC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C1A2BAF9D2C00C1A4EC /* RegisterViewModelContract.swift */,
+				ECDE9C1B2BAF9D2C00C1A4EC /* RegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ECDE9C1C2BAF9D2C00C1A4EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C1D2BAF9D2C00C1A4EC /* RegisterScreenAnalyticEventImplementation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECDE9C1E2BAF9D2C00C1A4EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE9C1F2BAF9D2C00C1A4EC /* RegisterViewController.storyboard */,
+				ECDE9C202BAF9D2C00C1A4EC /* RegisterViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		ECE419D02BAF0A250038BF2B = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +472,7 @@
 				ECE41A0C2BAF13DE0038BF2B /* ApplicationSupport */,
 				ECE41A0D2BAF1DA40038BF2B /* SplashScreen */,
 				ECDE9BE82BAF9C4D00C1A4EC /* LoginScreen */,
+				ECDE9C0A2BAF9D2B00C1A4EC /* RegisterScreen */,
 				ECE41A5D2BAF1DC50038BF2B /* Core */,
 				ECE41A982BAF1EB90038BF2B /* Utils */,
 			);
@@ -674,6 +803,7 @@
 				ECE419E92BAF0A260038BF2B /* LaunchScreen.storyboard in Resources */,
 				ECE419E62BAF0A260038BF2B /* Assets.xcassets in Resources */,
 				ECE41A462BAF1DA40038BF2B /* SplashScreenViewController.storyboard in Resources */,
+				ECDE9C2A2BAF9D2C00C1A4EC /* RegisterViewController.storyboard in Resources */,
 				ECDE9C092BAF9C4E00C1A4EC /* LoginViewController.storyboard in Resources */,
 				ECE41A942BAF1DC50038BF2B /* GoogleService-Info.plist in Resources */,
 				ECDE9BE42BAF7EE700C1A4EC /* Localizable.strings in Resources */,
@@ -806,6 +936,8 @@
 			files = (
 				ECE41A932BAF1DC50038BF2B /* FirebaseAnalyticsProvider.swift in Sources */,
 				ECE41A902BAF1DC50038BF2B /* AnalyticsServiceContract.swift in Sources */,
+				ECDE9C252BAF9D2C00C1A4EC /* RegisterUsecaseImplementation.swift in Sources */,
+				ECDE9C272BAF9D2C00C1A4EC /* RegisterViewModelContract.swift in Sources */,
 				ECE41A852BAF1DC50038BF2B /* CoordinatorProtocol.swift in Sources */,
 				ECE41AA82BAF1EB90038BF2B /* Utils.swift in Sources */,
 				ECE41A8A2BAF1DC50038BF2B /* BaseViewController.swift in Sources */,
@@ -816,6 +948,7 @@
 				ECDE9BE52BAF7EE700C1A4EC /* Localize.swift in Sources */,
 				ECE41A972BAF1DC50038BF2B /* AnalyticsEventContract.swift in Sources */,
 				ECE41A842BAF1DC50038BF2B /* AppCoordinator.swift in Sources */,
+				ECDE9C242BAF9D2C00C1A4EC /* RegisterRepositoryContract.swift in Sources */,
 				ECDE9C012BAF9C4D00C1A4EC /* LoginRepositoryImp.swift in Sources */,
 				ECDE9BFF2BAF9C4D00C1A4EC /* LoginLocalDataSourceContract.swift in Sources */,
 				ECDE9BDA2BAF6F0500C1A4EC /* UIView+Extension.swift in Sources */,
@@ -831,20 +964,27 @@
 				ECE41A8D2BAF1DC50038BF2B /* BaseAPI.swift in Sources */,
 				ECDE9C072BAF9C4E00C1A4EC /* LoginScreenAnalyticEventImplementation.swift in Sources */,
 				ECE41A8E2BAF1DC50038BF2B /* ApplicationNetworking.swift in Sources */,
+				ECDE9C212BAF9D2C00C1A4EC /* RegisterLocalDatasourceImplementation.swift in Sources */,
 				ECE41A882BAF1DC50038BF2B /* RemoteConfigKeys.swift in Sources */,
 				ECE41A8F2BAF1DC50038BF2B /* AnalyticsService.swift in Sources */,
 				ECDE9BDE2BAF7B6300C1A4EC /* UITextField+Extension.swift in Sources */,
 				ECE41A442BAF1DA40038BF2B /* SplashViewModelContract.swift in Sources */,
 				ECE41AA32BAF1EB90038BF2B /* Enums.swift in Sources */,
+				ECDE9C262BAF9D2C00C1A4EC /* RegisterUsecaseContract.swift in Sources */,
 				ECE41A862BAF1DC50038BF2B /* BaseViewModelContract.swift in Sources */,
+				ECDE9C232BAF9D2C00C1A4EC /* RegisterRepositoryImplementation.swift in Sources */,
 				ECE41AA72BAF1EB90038BF2B /* ViewController+Extension.swift in Sources */,
 				ECDE9C082BAF9C4E00C1A4EC /* LoginViewController.swift in Sources */,
 				ECE41AA22BAF1EB90038BF2B /* Constants.swift in Sources */,
 				ECE41A962BAF1DC50038BF2B /* AnalyticsProviderContract.swift in Sources */,
+				ECDE9C282BAF9D2C00C1A4EC /* RegisterViewModel.swift in Sources */,
 				ECE419DD2BAF0A250038BF2B /* AppDelegate.swift in Sources */,
 				ECDE9C022BAF9C4D00C1A4EC /* LoginRepositoryContract.swift in Sources */,
 				ECE41A872BAF1DC50038BF2B /* PaginationContract.swift in Sources */,
+				ECDE9C222BAF9D2C00C1A4EC /* RegisterLocalDatasourceContract.swift in Sources */,
+				ECDE9C292BAF9D2C00C1A4EC /* RegisterScreenAnalyticEventImplementation.swift in Sources */,
 				ECE41A8B2BAF1DC50038BF2B /* Injector.swift in Sources */,
+				ECDE9C2B2BAF9D2C00C1A4EC /* RegisterViewController.swift in Sources */,
 				ECE41A452BAF1DA40038BF2B /* SplashScreenViewController.swift in Sources */,
 				ECE41A432BAF1DA40038BF2B /* SplashScreenViewModel.swift in Sources */,
 			);

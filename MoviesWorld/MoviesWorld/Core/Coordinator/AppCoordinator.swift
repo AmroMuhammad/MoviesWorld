@@ -54,7 +54,7 @@ class AppCoordinator: CoordinatorProtocol {
     }
     
     private func openRegisterScreen() {
-//        let nextViewController = Injector.getRegisterViewController(coordinator: self)
-//        navigationController.pushViewController(nextViewController, animated: false)
+        let nextViewController = Injector.getRegisterViewController(coordinator: self)
+        navigationController.pushViewController(nextViewController, animated: false)
     }
 }

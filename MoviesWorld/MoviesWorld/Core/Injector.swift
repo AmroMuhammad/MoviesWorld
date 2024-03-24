@@ -27,15 +27,15 @@ class Injector {
         return viewcontroller
     }
     
-//    static func getRegisterViewController(coordinator: CoordinatorProtocol) -> RegisterViewController {
-//        let localDataSource = RegisterLocalDatasourceImplementation()
-//        let repo = RegisterRepositoryImplementation(localDataSource: localDataSource)
-//        let usecase = RegisterUsecaseImplementation(repo: repo)
-//        let viewModel = RegisterViewModel(coordinator: coordinator, usecase: usecase, analyticsService: AnalyticsService.shared)
-//        let viewcontroller = RegisterViewController.instantiateFromStoryBoard(appStoryBoard: .Register)
-//        viewcontroller.registerViewModel = viewModel
-//        return viewcontroller
-//    }
+    static func getRegisterViewController(coordinator: CoordinatorProtocol) -> RegisterViewController {
+        let localDataSource = RegisterLocalDatasourceImplementation()
+        let repo = RegisterRepositoryImplementation(localDataSource: localDataSource)
+        let usecase = RegisterUsecaseImplementation(repo: repo)
+        let viewModel = RegisterViewModel(coordinator: coordinator, usecase: usecase, analyticsService: AnalyticsService.shared)
+        let viewcontroller = RegisterViewController.instantiateFromStoryBoard(appStoryBoard: .Register)
+        viewcontroller.registerViewModel = viewModel
+        return viewcontroller
+    }
     
     static func addFirebaseAnalytic() {
         if (RemoteConfigService.shared.bool(for: .enableFirebaseAnalytics)){

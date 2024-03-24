@@ -16,6 +16,9 @@
 "noInternetConnection" = "No Internet Connection, Please connect to WI-FI or Mobile Data and try again.";
 "alertTitle" = "ِError";
 "ok" = "Ok";
+"email" = "Email";
+"password" = "Password";
+"signup" = "Sign Up";
 
 //MARK: Splash Screen
 "appName" = "Movies World";
@@ -23,9 +26,10 @@
 
 //MARK: Login Screen
 "login_to" = "Login to your Account";
-"email" = "Email";
-"password" = "Password";
 "login" = "Login";
 "continue_with" = "Or Contine With";
 "dont_have" = "Don't have an account";
-"signup" = "Sign Up";
+
+//MARK: Register Screen
+"confirm_password" = "Confirm password";
+"register" = "Create your account";

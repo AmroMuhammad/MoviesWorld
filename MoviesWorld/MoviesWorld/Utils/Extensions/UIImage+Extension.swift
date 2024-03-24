@@ -12,11 +12,7 @@ extension UIImage {
         return UIImage()
     }
     
-    static var showIcon: UIImage {
-        return UIImage(systemName: "eye") ?? .emptyImage
-    }
-    
-    static var hideICon: UIImage {
-        return UIImage(systemName: "eye.slash") ?? .emptyImage
+    static var backButton: UIImage {
+        return UIImage(systemName: "chevron.backward.circle") ?? .emptyImage
     }
 }

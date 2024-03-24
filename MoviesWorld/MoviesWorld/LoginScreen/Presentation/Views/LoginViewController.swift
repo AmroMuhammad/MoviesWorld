@@ -112,12 +112,12 @@ class LoginViewController: BaseViewController {
     
     private func setLocalization() {
         loginLabel.text = Localize.Login.loginTo
-        emailTextField.placeholder = Localize.Login.email
-        passwordTextField.placeholder = Localize.Login.password
+        emailTextField.placeholder = Localize.General.email
+        passwordTextField.placeholder = Localize.General.password
         loginButton.setTitle(Localize.Login.login, for: .normal)
         continueWithLabel.text = Localize.Login.continueWith
         dontHaveAccountLabel.text = Localize.Login.dontHave
-        signUpButton.text = Localize.Login.signup
+        signUpButton.text = Localize.General.signup
         
     }
     

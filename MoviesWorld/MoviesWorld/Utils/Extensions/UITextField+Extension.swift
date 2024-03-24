@@ -7,12 +7,10 @@
 
 import UIKit
 
-let button = UIButton(type: .custom)
-
 extension UITextField {
     
     func enablePasswordToggle(){
-        
+        let button = UIButton(type: .custom)
         button.setImage(UIImage(systemName: "eye"), for: .normal)
         button.setImage(UIImage(systemName: "eye.slash"), for: .selected)
         button.tintColor = .gray
@@ -23,8 +21,8 @@ extension UITextField {
         button.alpha = 0.4
     }
     
-    @objc func togglePasswordView(_ sender: Any) {
+    @objc func togglePasswordView(_ sender: UIButton) {
         isSecureTextEntry.toggle()
-        button.isSelected.toggle()
+        sender.isSelected.toggle()
     }
 }
