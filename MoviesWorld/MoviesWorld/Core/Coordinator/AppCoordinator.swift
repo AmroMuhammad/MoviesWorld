@@ -3,7 +3,7 @@
 //  MoviesWorld
 //
 //  Created by Amr Muhammad on 12/12/21.
-//  Copyright © 2021 Amr Muhammad. All rights reserved.
+//  Copyright © 2024 Amr Muhammad. All rights reserved.
 //
 
 import UIKit
@@ -43,8 +43,7 @@ class AppCoordinator: CoordinatorProtocol {
         case .Register:
             openRegisterScreen()
         case .Home:
-            print("navigate To Home")
-            break
+            openMoviesScreen()
         }
         
     }
@@ -56,6 +55,11 @@ class AppCoordinator: CoordinatorProtocol {
     
     private func openRegisterScreen() {
         let nextViewController = Injector.getRegisterViewController(coordinator: self)
+        navigationController.pushViewController(nextViewController, animated: false)
+    }
+    
+    private func openMoviesScreen() {
+        let nextViewController = Injector.getMoviesViewController(coordinator: self)
         navigationController.pushViewController(nextViewController, animated: false)
     }
 }
