@@ -15,4 +15,9 @@ extension UIImage {
     static var backButton: UIImage {
         return UIImage(systemName: "chevron.backward.circle") ?? .emptyImage
     }
+    
+    static var logoutImage: UIImage {
+        let image = UIImage(named: "logout")
+        return image ?? .emptyImage
+    }
 }

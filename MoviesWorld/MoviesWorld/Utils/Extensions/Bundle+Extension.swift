@@ -16,6 +16,10 @@ extension Bundle {
     var mixPanelKey: String {
         value(for: "mixPanelKey").orEmpty
     }
+    
+    var TMDBKey: String {
+        value(for: "TMDBKey").orEmpty
+    }
 }
 
 

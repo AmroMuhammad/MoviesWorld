@@ -36,3 +36,6 @@
 //MARK: Register Screen
 "confirm_password" = "تأكيد كلمة المرور";
 "register" = "إنشاء حسابك";
+
+//MARK: Movie Screen
+"votes" = "عدد الاصوات";

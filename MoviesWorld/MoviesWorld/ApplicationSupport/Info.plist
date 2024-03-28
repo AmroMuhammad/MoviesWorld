@@ -4,6 +4,8 @@
 <dict>
 	<key>mixPanelKey</key>
 	<string>$(mixPanelKey)</string>
+	<key>TMDBKey</key>
+	<string>$(TMDBKey)</string>
 	<key>GIDClientID</key>
 	<string>705925621534-h53no3rdenb04l1s16jtio5sl6kki4jv.apps.googleusercontent.com</string>
 	<key>CFBundleURLTypes</key>

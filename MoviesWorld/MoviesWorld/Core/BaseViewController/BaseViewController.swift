@@ -3,7 +3,7 @@
 //  MoviesWorld
 //
 //  Created by Amr Muhammad on 23/03/2024.
-//  Copyright © 2021 Amr Muhammad. All rights reserved.
+//  Copyright © 2024 Amr Muhammad. All rights reserved.
 //
 
 import UIKit
@@ -25,6 +25,7 @@ class BaseViewController: UIViewController {
     
     func showLoading() {
         activityIndicator.center = self.view.center
+        activityIndicator.transform = CGAffineTransform.init(scaleX: 2, y: 2)
         activityIndicator.color = #colorLiteral(red: 0.521568656, green: 0.1098039225, blue: 0.05098039284, alpha: 1)
         self.view.addSubview(activityIndicator)
         activityIndicator.startAnimating()

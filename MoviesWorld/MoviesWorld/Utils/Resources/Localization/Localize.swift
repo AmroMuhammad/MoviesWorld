@@ -44,4 +44,8 @@ enum Localize {
         static let register = "register".localize
 
     }
+    
+    enum MoviesHome {
+        static let votes = "votes".localize
+    }
 }

@@ -18,19 +18,19 @@ class RegisterRemoteDatasourceImp: RegisterRemoteDatasourceContract {
             if let error = error as? NSError {
                 switch AuthErrorCode(_nsError: error).code {
                 case .operationNotAllowed:
-                    let error = NSError(domain: Constants.baseURL, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.genericError])
+                    let error = NSError(domain: Constants.registerDomain, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.genericError])
                     completion(.failure(error))
                 case .emailAlreadyInUse:
-                    let error = NSError(domain: Constants.baseURL, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.accountAlreadyExist])
+                    let error = NSError(domain: Constants.registerDomain, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.accountAlreadyExist])
                     completion(.failure(error))
                 case .invalidEmail:
-                    let error = NSError(domain: Constants.baseURL, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.emailError])
+                    let error = NSError(domain: Constants.registerDomain, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.emailError])
                     completion(.failure(error))
                 case .weakPassword:
-                    let error = NSError(domain: Constants.baseURL, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.passwordError])
+                    let error = NSError(domain: Constants.registerDomain, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.passwordError])
                     completion(.failure(error))
                 default:
-                    let error = NSError(domain: Constants.baseURL, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.genericError])
+                    let error = NSError(domain: Constants.registerDomain, code: 0, userInfo: [NSLocalizedDescriptionKey: Localize.General.genericError])
                     completion(.failure(error))
                 }
             } else {

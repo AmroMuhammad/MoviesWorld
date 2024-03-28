@@ -12,6 +12,7 @@ enum StoryBoardsEnum : String {
     case Splash = "SplashScreenViewController"
     case Login = "LoginViewController"
     case Register = "RegisterViewController"
+    case Movies = "MoviesViewController"
     
     var instance : UIStoryboard {
         return UIStoryboard(name: self.rawValue, bundle: Bundle.main)
