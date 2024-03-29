@@ -11,6 +11,7 @@ import Alamofire
 
 enum ApplicationNetworking{
     case getMovies(page:String, language: String)
+    case getMovieDetails(id: Int, language: String)
 }
 
 extension ApplicationNetworking : TargetType{
@@ -24,7 +25,9 @@ extension ApplicationNetworking : TargetType{
     var path: String {
         switch self{
         case .getMovies:
-            return Constants.APIConstatnts.urlPath
+            return Constants.APIConstatnts.moviesUrlPath
+        case .getMovieDetails(let id, _):
+            return String(format: Constants.APIConstatnts.moviesDetailsUrlPath, id)
         }
     }
     
@@ -45,6 +48,10 @@ extension ApplicationNetworking : TargetType{
                                          Constants.APIConstatnts.page:page,
                                          Constants.APIConstatnts.sortBy:Constants.APIConstatnts.popularityDesc
                                         ],
+                                      encoding: URLEncoding.default)
+        case .getMovieDetails(_, let language):
+            return .requestParameters(parameters:
+                                        [Constants.APIConstatnts.language:language],
                                       encoding: URLEncoding.default)
         }
     }

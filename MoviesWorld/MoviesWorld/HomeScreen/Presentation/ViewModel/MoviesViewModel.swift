@@ -101,10 +101,10 @@ class MoviesViewModel : MoviesViewModelContract{
             analyticEvent.logoutClicked()
             analyticsService.report(event: analyticEvent)
             coordinator.navigateToNextScreen(destination: .Login)
-//        case .Details(let model):
-//            analyticEvent.productClicked(id: model.id)
-//            analyticsService.report(event: analyticEvent)
-//            coordinator.navigateToNextScreen(destination: .Details(model))
+        case .Details(let id):
+            analyticEvent.productClicked(id: id)
+            analyticsService.report(event: analyticEvent)
+            coordinator.navigateToNextScreen(destination: .Details(id))
         default:
             break
         }

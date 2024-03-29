@@ -48,6 +48,16 @@ class Injector {
         return viewcontroller
     }
     
+    static func getMovieDetailsViewController(coordinator: CoordinatorProtocol, id: Int) -> DetailsViewController {
+        let remoteDatasource = MovieDetailsRemoteDatasourceImp()
+        let repo = MovieDetailsRepositoryImp(movieDetailsRemoteDatasource: remoteDatasource)
+        let usecase = MovieDetailsUsecaseImp(repo: repo)
+        let viewModel = DetailsViewModel(id: id, usecase: usecase, coordinator: coordinator)
+        let viewcontroller = DetailsViewController.instantiateFromStoryBoard(appStoryBoard: .Details)
+        viewcontroller.detailsViewModel = viewModel
+        return viewcontroller
+    }
+    
     static func addFirebaseAnalytic() {
         if (RemoteConfigService.shared.bool(for: .enableFirebaseAnalytics)){
             AnalyticsService.register(provider: FirebaseAnalyticsProvider())

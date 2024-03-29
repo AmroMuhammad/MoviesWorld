@@ -18,13 +18,15 @@ enum Constants{
     
     enum APIConstatnts {
         static let baseURL = "https://api.themoviedb.org/3/"
-        static let urlPath = "discover/movie"
+        static let moviesUrlPath = "discover/movie"
+        static let moviesDetailsUrlPath = "movie/%d"
         static let includeAdults = "include_adult"
         static let includeVideo = "include_video"
         static let language = "language"
         static let page = "page"
         static let sortBy = "sort_by"
         static let popularityDesc = "popularity.desc"
+        static let imageURLPath = "https://image.tmdb.org/t/p/original"
     }
     
 }
