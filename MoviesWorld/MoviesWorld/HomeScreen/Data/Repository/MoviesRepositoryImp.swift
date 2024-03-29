@@ -93,13 +93,12 @@ class MoviesRepositoryImp: MoviesRepositoryContract{
                 print("PVM* getMovies failed")
                 return
             }
+            self.loadingsubject.onNext(false)
             switch result{
             case .success(let movies):
                 print("2")
-                self.loadingsubject.onNext(false)
                 self.handleData(data: movies)
             case .failure(let error):
-                self.loadingsubject.onNext(false)
                 self.errorsubject.onNext(error.localizedDescription)
             }
             self.isLoadingSpinnerAvaliable.onNext(false)
