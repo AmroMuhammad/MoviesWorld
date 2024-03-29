@@ -12,9 +12,9 @@ struct MoviesSreenAnalyticEventImplementation: AnalyticsEventContract {
     var eventName: String = ""
     var eventParameters: [String : String] = [:]
     
-    mutating func productClicked(id: String) {
+    mutating func productClicked(id: Int) {
         eventName = EventNames.movie_selected
-        eventParameters = [ParameterNames.movie_id : id]
+        eventParameters = [ParameterNames.movie_id : String(id)]
     }
     
     mutating func logoutClicked() {

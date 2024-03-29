@@ -39,3 +39,8 @@
 
 //MARK: Movie Screen
 "votes" = "Votes";
+
+//MARK: Movie Screen
+"storyline" = "Storyline";
+"popularity" = "Popularity";
+"budget" = "Budget";

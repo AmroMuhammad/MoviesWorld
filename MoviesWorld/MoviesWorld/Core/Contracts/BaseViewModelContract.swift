@@ -12,6 +12,6 @@ import RxSwift
 protocol BaseViewModelContract{
     var errorObservable:Observable<(String)>{get}
     var loadingObservable: Observable<Bool> {get}
-    func navigateTo(to: DestinationScreens)
     var coordinator: CoordinatorProtocol {set get}
+    func navigateTo(to: DestinationScreens)
 }

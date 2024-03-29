@@ -11,13 +11,8 @@ import FirebaseAnalytics
 
 public struct FirebaseAnalyticsProvider: AnalyticsProviderContract {
     
-    init() {
-//        setup()
-    }
-    
-//    func setup() {
-//        FirebaseApp.configure()
-//    }
+    init() {}
+
     
     public func reportEvent(name: String, parameters: [String: String]) {
         Analytics.logEvent(name, parameters: parameters)

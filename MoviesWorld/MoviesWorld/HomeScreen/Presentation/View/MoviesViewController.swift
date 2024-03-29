@@ -31,12 +31,15 @@ class MoviesViewController: BaseViewController {
         instantiateRefreshControl()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationItem.title = Localize.appName
+    }
+    
     private func setupNavigationController(){
         self.navigationItem.setHidesBackButton(true, animated: true)
         let logout = UIBarButtonItem(image: .logoutImage, style: .plain, target: self, action: #selector(logout))
         logout.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         self.navigationItem.rightBarButtonItem  = logout
-        self.navigationItem.title = Localize.appName
         
         //clear background
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
@@ -136,7 +139,7 @@ class MoviesViewController: BaseViewController {
 
         moviesTableView.rx.modelSelected(Movie.self).subscribe(onNext: {[weak self] (MovieItem) in
             guard let self = self else {return}
-//            self.MoviesViewModel.navigateTo(to: .Details(MovieItem))
+            self.moviesViewModel.navigateTo(to: .Details(MovieItem.id ?? 1))
         }).disposed(by: disposeBag)
     }
 }

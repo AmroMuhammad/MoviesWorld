@@ -15,7 +15,7 @@ struct MovieTableViewCellModel: BaseCellViewModelProtocol {
     let votingCount: String
     
     init(image: String, movieTitle: String, movieDesc: String, rating: Double, votingCount: Int) {
-        self.image = "https://image.tmdb.org/t/p/original" + image
+        self.image = Constants.APIConstatnts.imageURLPath + image
         self.movieTitle = movieTitle
         self.movieDesc = movieDesc
         self.rating  = "\(rating)/10"

@@ -39,3 +39,8 @@
 
 //MARK: Movie Screen
 "votes" = "عدد الاصوات";
+
+//MARK: Movie Screen
+"storyline" = "القصة";
+"popularity" = "الشعبية";
+"budget" = "الميزانية";

@@ -48,4 +48,10 @@ enum Localize {
     enum MoviesHome {
         static let votes = "votes".localize
     }
+    
+    enum MovieDetails {
+        static let storyline = "storyline".localize
+        static let popularity = "popularity".localize
+        static let budget = "budget".localize
+    }
 }

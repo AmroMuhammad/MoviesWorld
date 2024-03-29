@@ -18,7 +18,7 @@ class MovieTableViewCell: UITableViewCell, CellViewProtocol {
     
     func setup(viewModel: BaseCellViewModelProtocol) {
         guard let viewModel = viewModel as? MovieTableViewCellModel else {return}
-        MovieImageView.sd_setImage(with: URL(string: viewModel.image ), placeholderImage: UIImage(named: ""))
+        MovieImageView.sd_setImage(with: URL(string: viewModel.image ), placeholderImage: UIImage(named: "placeholder"))
         movieNameLabel.text = viewModel.movieTitle
         movieDescLabel.text = viewModel.movieDesc
         voteAvgLabel.text = viewModel.rating

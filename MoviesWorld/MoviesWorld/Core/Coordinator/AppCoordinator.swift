@@ -44,6 +44,8 @@ class AppCoordinator: CoordinatorProtocol {
             openRegisterScreen()
         case .Home:
             openMoviesScreen()
+        case .Details(let id):
+            openMovieDetailsScreen(id: id)
         }
         
     }
@@ -60,6 +62,11 @@ class AppCoordinator: CoordinatorProtocol {
     
     private func openMoviesScreen() {
         let nextViewController = Injector.getMoviesViewController(coordinator: self)
+        navigationController.pushViewController(nextViewController, animated: false)
+    }
+    
+    private func openMovieDetailsScreen(id: Int) {
+        let nextViewController = Injector.getMovieDetailsViewController(coordinator: self, id: id)
         navigationController.pushViewController(nextViewController, animated: false)
     }
 }

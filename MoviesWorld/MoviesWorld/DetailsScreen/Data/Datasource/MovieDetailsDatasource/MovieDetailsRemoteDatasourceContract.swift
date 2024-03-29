@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol MovieDetailsRemoteDatasourceContract {
+    func getMovieDetails(id: Int, language: String, completion: @escaping (Result<MovieDetailsModel, NSError>) -> Void)
+}

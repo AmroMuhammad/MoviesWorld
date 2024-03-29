@@ -23,4 +23,5 @@ enum DestinationScreens{
     case Login
     case Register
     case Home
+    case Details(Int)
 }
