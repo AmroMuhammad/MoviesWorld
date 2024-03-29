@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  MoviesWorld
+
+  Created by Amr Muhammad on 23/03/2024.
+  
+*/
+
+//MARK: General
+"genericError" = "حدث خطأ عام، يرجى المحاولة مرة أخرى لاحقًا";
+"emptyFieldsError" = "يجب ملء جميع الحقول";
+"emailError" = "الرجاء إدخال بريد إلكتروني صالح";
+"passwordError" = "يجب أن تتكون كلمة المرور من أكثر من 6 أحرف";
+"passwordNotEqualError" = "كلمة المرور غير متطابقة مع تأكيد كلمة المرور";
+"loginPasswordError" = "رقم الهاتف أو كلمة المرور غير صحيحة، يرجى المحاولة مرة أخرى";
+"noInternetConnection" = "لا يوجد اتصال بالإنترنت، يرجى الاتصال بشبكة WI-FI أو بيانات الجوال والمحاولة مرة أخرى.";
+"accountAlreadyExist" = "البريد الإلكتروني موجود بالفعل، يرجى المحاولة باستخدام بريد آخر";
+"userDisabled" = "تم تعطيل هذا المستخدم، يرجى التواصل مع الدعم";
+"userNotFound" = "هذا المستخدم غير موجود";
+"alertTitle" = "خطأ";
+"ok" = "حسناً";
+"email" = "البريد الإلكتروني";
+"password" = "كلمة المرور";
+"signup" = "التسجيل";
+
+//MARK: Splash Screen
+"appName" = "عالم الافلام";
+"welcome_to" = "مرحبا في";
+
+//MARK: Login Screen
+"login_to" = "تسجيل الدخول إلى حسابك";
+"login" = "تسجيل الدخول";
+"continue_with" = "أو الاستمرار مع";
+"dont_have" = "ليس لديك حساب؟";
+
+//MARK: Register Screen
+"confirm_password" = "تأكيد كلمة المرور";
+"register" = "إنشاء حسابك";
+
+//MARK: Movie Screen
+"votes" = "عدد الاصوات";
+
+//MARK: Movie Screen
+"storyline" = "القصة";
+"popularity" = "الشعبية";
+"budget" = "الميزانية";
